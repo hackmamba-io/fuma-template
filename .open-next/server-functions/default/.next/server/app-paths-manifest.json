@@ -1,9 +1,0 @@
-{
-  "/llms.mdx/[[...slug]]/route": "app/llms.mdx/[[...slug]]/route.js",
-  "/llms-full.txt/route": "app/llms-full.txt/route.js",
-  "/api/search/route": "app/api/search/route.js",
-  "/og/docs/[...slug]/route": "app/og/docs/[...slug]/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/docs/[[...slug]]/page": "app/docs/[[...slug]]/page.js",
-  "/(home)/page": "app/(home)/page.js"
-}
