@@ -1,0 +1,11 @@
+{
+  "title": "Documentation",
+  "pages": [
+    "index",
+    "overview",
+    "getting-started",
+    "api-reference",
+    "developer-tools",
+    "community-support"
+  ]
+}
