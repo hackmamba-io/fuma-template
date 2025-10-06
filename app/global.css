@@ -5,11 +5,11 @@
 /* Custom Hackmamba styling */
 :root {
   /* Primary brand colors - Purple/Violet theme */
-  --primary-purple: #8B5CF6;
-  --primary-purple-dark: #7C3AED;
-  --accent-blue: #3B82F6;
-  --secondary-indigo: #6366F1;
-  
+  --primary-purple: #8b5cf6;
+  --primary-purple-dark: #7c3aed;
+  --accent-blue: #3b82f6;
+  --secondary-indigo: #6366f1;
+
   /* Fumadocs sidebar variables */
   --fd-sidebar-width: 280px;
   --fd-sidebar-offset: -280px;
@@ -44,8 +44,8 @@
 }
 
 .card:hover {
-  border-color: var(--primary-green);
-  box-shadow: 0 4px 12px rgba(53, 208, 127, 0.1);
+  border-color: var(--primary-purple);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.1);
 }
 
 /* Navigation enhancements */
@@ -75,9 +75,26 @@ header a:active {
   text-decoration: none;
 }
 
+/* Remove hover effects from Fumadocs top navigation links */
+[data-nav] a:hover,
+[data-nav] a:focus,
+[data-nav] a:active {
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* Remove hover effects from navigation link buttons */
+[data-nav] button:hover,
+[data-nav] button:focus,
+[data-nav] button:active {
+  background-color: transparent;
+  color: inherit;
+}
+
 /* Logo styling */
 .logo {
-  color: var(--primary-green);
+  color: var(--primary-purple);
 }
 
 /* Section dividers */
@@ -96,10 +113,10 @@ header a:active {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-green);
+  background: var(--primary-purple);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-green-dark);
+  background: var(--primary-purple-dark);
 }

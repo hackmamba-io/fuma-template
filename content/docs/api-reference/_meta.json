@@ -1,4 +1,3 @@
 {
-  "title": "API Reference",
-  "pages": ["api-reference", "authentication", "rate-limits"]
+  "pages": ["api-overview", "authentication", "rate-limits"]
 }

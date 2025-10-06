@@ -12,7 +12,7 @@ export function baseOptions(): BaseLayoutProps {
     nav: {
       title: (
         <>
-          <svg
+          {/* <svg
             width="24"
             height="24"
             xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ export function baseOptions(): BaseLayoutProps {
               d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
               fill="currentColor"
             />
-          </svg>
+          </svg> */}
           Hackmamba Docs
         </>
       ),
@@ -31,7 +31,7 @@ export function baseOptions(): BaseLayoutProps {
     // Navigation tabs with internal docs links and appropriate icons
     links: [
       {
-        text: "Documentation",
+        text: "Home",
         url: "/docs",
         icon: (
           <svg
@@ -67,6 +67,24 @@ export function baseOptions(): BaseLayoutProps {
             <path d="M3 12c1 0 3-1 3-3s-2-3-3-3-3 1-3 3 2 3 3 3" />
             <path d="M12 3c0 1-1 3-3 3s-3-2-3-3 1-3 3-3 3 2 3 3" />
             <path d="M12 21c0-1 1-3 3-3s3 2 3 3-1 3-3 3-3-2-3-3" />
+          </svg>
+        ),
+      },
+      {
+        text: "Support",
+        url: "https://hackmamba.io/",
+        icon: (
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          >
+            <path d="M9 12l2 2 4-4" />
+            <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z" />
+            <path d="M12 6v6l4 2" />
           </svg>
         ),
       },

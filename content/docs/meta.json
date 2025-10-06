@@ -1,11 +1,18 @@
 {
   "title": "Documentation",
   "pages": [
-    "index",
-    "overview",
+    "---Guide---",
     "getting-started",
-    "api-reference",
     "developer-tools",
-    "community-support"
+    "---API References---",
+    "api-reference/api-overview",
+    "api-reference/authentication",
+    "api-reference/rate-limits",
+    "---Community & Support---",
+    "community-support/community",
+    "community-support/support",
+    "community-support/contributing",
+    "community-support/feedback",
+    "community-support/feature-requests"
   ]
 }

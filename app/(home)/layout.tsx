@@ -1,6 +1,18 @@
-import { HomeLayout } from 'fumadocs-ui/layouts/home';
-import { baseOptions } from '@/lib/layout.shared';
+import { DocsLayout } from "fumadocs-ui/layouts/docs";
+import { baseOptions } from "@/lib/layout.shared";
+import { source } from "@/lib/source";
 
-export default function Layout({ children }: LayoutProps<'/'>) {
-  return <HomeLayout {...baseOptions()}>{children}</HomeLayout>;
+export default function Layout({ children }: LayoutProps<"/">) {
+  return (
+    <DocsLayout
+      tree={source.pageTree}
+      {...baseOptions()}
+      sidebar={{
+        defaultOpenLevel: 2,
+        collapsible: true,
+      }}
+    >
+      {children}
+    </DocsLayout>
+  );
 }
